@@ -6,7 +6,7 @@
 require "redis"
 
 # Create variable counter as new redis connection
-counter = Redis.new(host: "192.168.56.11", port: 6379, db: 1)
+counter = Redis.new(host: "192.168.56.11", port: 6379, db: "counter")
 
 
 # Create variable number as next counter 
