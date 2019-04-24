@@ -7,4 +7,4 @@ set -x
 gem list -i redis || gem install redis
 
 # install redis tools
-apt-get install -y redis-tools
+which redis-cli || apt-get install -y redis-tools
